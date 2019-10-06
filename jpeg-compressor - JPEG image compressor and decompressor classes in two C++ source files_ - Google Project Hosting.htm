@@ -1,0 +1,313 @@
+﻿<!DOCTYPE HTML>
+<!-- saved from url=(0042)https://code.google.com/p/jpeg-compressor/ -->
+<!DOCTYPE html PUBLIC "" ""><HTML><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+  
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">  
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">   
+<META name="ROBOTS" content="NOARCHIVE">   <LINK href="https://ssl.gstatic.com/codesite/ph/images/phosting.ico" 
+rel="icon" type="image/vnd.microsoft.icon">    
+<SCRIPT type="text/javascript">
+ 
+ 
+ 
+ 
+ var codesite_token = null;
+ 
+ 
+ var CS_env = {"projectName": "jpeg-compressor", "loggedInUserEmail": null, "profileUrl": null, "assetHostPath": "https://ssl.gstatic.com/codesite/ph", "projectHomeUrl": "/p/jpeg-compressor", "token": null, "assetVersionPath": "https://ssl.gstatic.com/codesite/ph/11512667522589661435", "domainName": null, "relativeBaseUrl": ""};
+ var _gaq = _gaq || [];
+ _gaq.push(
+ ['siteTracker._setAccount', 'UA-18071-1'],
+ ['siteTracker._trackPageview']);
+ 
+ _gaq.push(
+ ['projectTracker._setAccount', 'UA-28184840-4'],
+ ['projectTracker._trackPageview']);
+ 
+ (function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+ })();
+ 
+ </SCRIPT>
+    <TITLE> jpeg-compressor -   JPEG image compressor and decompressor classes 
+in two C++ source files. - Google Project Hosting  </TITLE>  <LINK href="jpeg-compressor%20-%20JPEG%20image%20compressor%20and%20decompressor%20classes%20in%20two%20C++%20source%20files_%20-%20Google%20Project%20Hosting_files/core.css" 
+rel="stylesheet" type="text/css">   <LINK href="jpeg-compressor%20-%20JPEG%20image%20compressor%20and%20decompressor%20classes%20in%20two%20C++%20source%20files_%20-%20Google%20Project%20Hosting_files/ph_detail.css" 
+rel="stylesheet" type="text/css">     <!--[if IE]>
+ <link type="text/css" rel="stylesheet" href="https://ssl.gstatic.com/codesite/ph/11512667522589661435/css/d_ie.css" >
+<![endif]--> 
+ 
+<STYLE type="text/css">
+ .menuIcon.off { background: no-repeat url(https://ssl.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -42px }
+ .menuIcon.on { background: no-repeat url(https://ssl.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -28px }
+ .menuIcon.down { background: no-repeat url(https://ssl.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 0; }
+ 
+ 
+ .psicon-container {
+ min-width:24px;
+ }
+
+ 
+ </STYLE>
+ 
+<META name="GENERATOR" content="MSHTML 11.00.9600.16521"></HEAD> 
+<BODY class="t1">
+<SCRIPT type="text/javascript">
+ window.___gcfg = {lang: 'en'};
+ (function() 
+ {var po = document.createElement("script");
+ po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
+ var s = document.getElementsByTagName("script")[0];
+ s.parentNode.insertBefore(po, s);
+ })();
+</SCRIPT>
+ 
+<DIV class="headbg">
+<DIV id="gaia"><SPAN><A id="projects-dropdown" onclick="return false;" href="https://code.google.com/p/jpeg-compressor/#"><U>My 
+favorites</U> <SMALL>▼</SMALL></A> | <A onclick="_CS_click('/gb/ph/signin');" 
+href="https://www.google.com/accounts/ServiceLogin?service=code&amp;ltmpl=phosting&amp;continue=https%3A%2F%2Fcode.google.com%2Fp%2Fjpeg-compressor%2F&amp;followup=https%3A%2F%2Fcode.google.com%2Fp%2Fjpeg-compressor%2F"><U>Sign 
+in</U></A>   </SPAN>  </DIV>
+<DIV class="gbh" style="left: 0pt;"></DIV>
+<DIV class="gbh" style="right: 0pt;"></DIV>
+<DIV style="height: 1px;"></DIV><!--[if lte IE 7]>
+<div style="text-align:center;">
+Your version of Internet Explorer is not supported. Try a browser that
+contributes to open source, such as <a href="http://www.firefox.com">Firefox</a>,
+<a href="http://www.google.com/chrome">Google Chrome</a>, or
+<a href="http://code.google.com/chrome/chromeframe/">Google Chrome Frame</a>.
+</div>
+<![endif]--> 
+ 
+<TABLE style="margin: 0px 0px 10px; padding: 0px; width: 100%;" cellspacing="0" 
+cellpadding="0" itemtype="http://schema.org/CreativeWork" itemscope="">
+  <TBODY>
+  <TR style="height: 58px;">
+    <TD id="plogo"><LINK href="/p/jpeg-compressor" itemprop="url">  <A href="https://code.google.com/p/jpeg-compressor/"><IMG 
+      alt="Logo" src="jpeg-compressor%20-%20JPEG%20image%20compressor%20and%20decompressor%20classes%20in%20two%20C++%20source%20files_%20-%20Google%20Project%20Hosting_files/defaultlogo.png" 
+      itemprop="image">   </A>  </TD>
+    <TD style="padding-left: 0.5em;">
+      <DIV id="pname"><A href="https://code.google.com/p/jpeg-compressor/"><SPAN 
+      itemprop="name">jpeg-compressor</SPAN></A>  </DIV>
+      <DIV id="psum"><A id="project_summary_link" href="https://code.google.com/p/jpeg-compressor/"><SPAN 
+      itemprop="description">JPEG image compressor and decompressor classes in 
+      two C++ source files.</SPAN></A>   </DIV></TD>
+    <TD 
+      style="text-align: right; vertical-align: bottom; white-space: nowrap;"><FORM 
+      action="/hosting/search"><INPUT name="q" type="text" size="30">   
+<INPUT name="projectsearch" type="submit" value="Search projects">  
+  </FORM></TR></TBODY></TABLE></DIV>
+<DIV class="gtb" id="mt"><A class="tab active" href="https://code.google.com/p/jpeg-compressor/">Project&nbsp;Home</A> 
+     <A class="tab " href="https://code.google.com/p/jpeg-compressor/downloads/list">Downloads</A> 
+      <A class="tab " 
+href="https://code.google.com/p/jpeg-compressor/w/list">Wiki</A>       <A class="tab " 
+href="https://code.google.com/p/jpeg-compressor/issues/list">Issues</A>       <A 
+class="tab " 
+href="https://code.google.com/p/jpeg-compressor/source/checkout">Source</A>      
+    
+<DIV class="gtbc"></DIV></DIV>
+<TABLE width="100%" align="center" class="st" border="0" cellspacing="0" 
+cellpadding="0">
+  <TBODY>
+  <TR>
+    <TD class="subt">
+      <DIV class="st1">
+      <DIV class="isf"><SPAN class="inst1"><A href="https://code.google.com/p/jpeg-compressor/">Summary</A> 
+       </SPAN>   &nbsp;  <SPAN class="inst3"><A href="https://code.google.com/p/jpeg-compressor/people/list">People</A> 
+       </SPAN>    </DIV></DIV></TD>
+    <TD align="right" class="bevel-right" valign="top"></TD></TR></TBODY></TABLE>
+<SCRIPT type="text/javascript">
+ var cancelBubble = false;
+ function _go(url) { document.location = url; }
+</SCRIPT>
+ 
+<DIV id="maincol">
+<TABLE width="100%">
+  <TBODY>
+  <TR class="pscontent">
+    <TD class="pscolumnl">
+      <DIV class="phead">Project Information</DIV>
+      <UL class="pslist">
+        <LI class="psmeta"><A href="https://code.google.com/p/jpeg-compressor/feeds">Project 
+        feeds</A>  </LI>
+        <LI class="psgap">
+        <LI class="psmeta"><B>Code license</B></LI>
+        <LI class="psmeta"><A href="http://code.google.com/p/support/wiki/FAQ#Which_licenses_can_be_used?" 
+        rel="nofollow">Other Open Source</A>  <BR>See source for details  </LI>
+        <LI class="psgap">
+        <LI class="psmeta"><SPAN id="project_labels"><B>Labels</B><BR><A class="label" 
+        href="https://code.google.com/hosting/search?q=label:jpeg">jpeg</A>,    
+        <A class="label" href="https://code.google.com/hosting/search?q=label:jpg">jpg</A>, 
+           <A class="label" href="https://code.google.com/hosting/search?q=label:compression">compression</A>, 
+           <A class="label" href="https://code.google.com/hosting/search?q=label:images">images</A>, 
+           <A class="label" href="https://code.google.com/hosting/search?q=label:C">C</A>, 
+           <A class="label" href="https://code.google.com/hosting/search?q=label:decompression">decompression</A>, 
+           <A class="label" href="https://code.google.com/hosting/search?q=label:raster">raster</A>, 
+           <A class="label" href="https://code.google.com/hosting/search?q=label:lossy">lossy</A>, 
+           <A class="label" href="https://code.google.com/hosting/search?q=label:library">library</A>, 
+           <A class="label" href="https://code.google.com/hosting/search?q=label:Archive">Archive</A>, 
+           <A class="label" href="https://code.google.com/hosting/search?q=label:photo">photo</A>, 
+           <A class="label" href="https://code.google.com/hosting/search?q=label:codec">codec</A>, 
+           <A class="label" href="https://code.google.com/hosting/search?q=label:libjpeg">libjpeg</A>, 
+           <A class="label" href="https://code.google.com/hosting/search?q=label:libjpg">libjpg</A> 
+          </SPAN>  </LI>
+        <LI class="psgap"></LI></UL>
+      <DIV class="psicon">
+      <DIV class="psicon-container goog-inline-block">
+      <DIV class="SPRITE_people-y16 goog-inline-block vt" 
+      style="float: right;"></DIV></DIV><SPAN><B>Members</B></SPAN>  </DIV>
+      <UL class="pslist"><A class="userlink" href="https://code.google.com/u/106462556644344774154/">richge...@gmail.com</A> 
+             
+        <LI class="psgap"></LI></UL>
+      <DIV class="phead pfeatured">Featured</DIV>
+      <DIV class="psicon">
+      <DIV class="psicon-container goog-inline-block">
+      <DIV class="SPRITE_filedownload-g16 goog-inline-block vt" style="float: right;"></DIV></DIV><SPAN><B>Downloads</B></SPAN> 
+       </DIV>
+      <UL class="pslist">
+        <LI class="psmeta nowrap"><A title="Download" onclick="_gaq.push(['siteTracker._trackEvent', 'Download - Downloaded', '//jpeg-compressor.googlecode.com/files/jpeg-compressor_v104_r1.7z', 'Type-Archive, OpSys-Windows, Featured, OpSys-Linux']);_gaq.push(['projectTracker._trackEvent', 'Download - Downloaded', '//jpeg-compressor.googlecode.com/files/jpeg-compressor_v104_r1.7z', 'Type-Archive, OpSys-Windows, Featured, OpSys-Linux']);" 
+        href="https://jpeg-compressor.googlecode.com/files/jpeg-compressor_v104_r1.7z"></A> 
+         <A title="Source with small sample/test program, VS2008/Codeblocks projects, precompiled Win32/Win64/32-bit Linux command line EXE's." 
+        href="https://code.google.com/p/jpeg-compressor/downloads/detail?name=jpeg-compressor_v104_r1.7z">jpeg-compressor_v104_r1.7z</A> 
+         </LI>
+        <LI class="psmeta"><A href="https://code.google.com/p/jpeg-compressor/downloads/list">Show 
+        all »</A></LI>
+        <LI class="psgap"></LI></UL>
+      <DIV class="phead">Links</DIV>
+      <UL class="pslist" style="white-space: nowrap;">
+        <LI class="psmeta"><B>External links</B></LI>
+        <LI class="psmeta"><A href="http://twitter.com/#!/richgel999" rel="nofollow">Follow 
+        Rich on Twitter</A>  </LI>
+        <LI class="psgap"></LI></UL></TD>
+    <TD class="psdescription" id="wikicontent">
+      <P>jpeg-compressor is a small (~1000 lines), easy to use public domain C++ 
+      class in a single source file <A href="http://code.google.com/p/jpeg-compressor/source/browse/trunk/jpge.cpp" 
+      rel="nofollow">jpge.cpp</A> that writes baseline <A href="http://en.wikipedia.org/wiki/JPEG" 
+      rel="nofollow">JPEG</A> compressed images. It supports grayscale and 
+      H1V1/H2V1/H2V2 <A href="http://en.wikipedia.org/wiki/Chroma_subsampling" 
+      rel="nofollow">chroma subsampling</A> factors, <A href="http://en.wikipedia.org/wiki/Libjpeg" 
+      rel="nofollow">Libjpeg</A>-compatible quality settings, and is reasonably 
+      fast with fairly low (typically less than 64KB) memory consumption. The 
+      core compression class consists of a single 890 line C++ file with a small 
+      header, along with a couple optional higher-level helper/example 
+      functions. The current release now supports both single pass <A href="http://en.wikipedia.org/wiki/Huffman_coding" 
+      rel="nofollow">Huffman coding</A> and more efficient (but slower) two pass 
+      coding, makes only a single dynamic memory allocation, and now accepts 
+      32-bit source images. </P>
+      <P>As an added bonus, the source distribution now also includes an 
+      optional, completely stand-alone public domain JPEG decompression class 
+      with progressive image support in a single source file <A href="http://code.google.com/p/jpeg-compressor/source/browse/trunk/jpgd.cpp" 
+      rel="nofollow">jpgd.cpp</A>. </P>
+      <P>The source distribution includes a sample VS2008/2010 Win32/x64 
+      solution and a <A href="http://www.codeblocks.org/" 
+      rel="nofollow">Codeblocks</A> v10.05 (<A href="http://www.mingw.org/" rel="nofollow">MinGW</A>) 
+      project. </P>
+      <P>Thanks to Alex Evans for adding several features to jpge (see <A href="http://altdevblogaday.org/2011/04/06/a-smaller-jpg-encoder/" 
+      rel="nofollow">a smaller jpg encoder</A>). </P>
+      <P><STRONG>Basic Usage (Compression)</STRONG> </P>
+      <P>Include <A href="http://code.google.com/p/jpeg-compressor/source/browse/trunk/jpge.h" 
+      rel="nofollow">jpge.h</A> and call one of these helper functions in the 
+      "jpge" namespace: </P>
+<PRE class="prettyprint">  // Writes JPEG image to a file. 
+  // num_channels must be 1 (Y), 3 (RGB), or 4 (RGBA), image pitch must be width*num_channels.
+  bool compress_image_to_jpeg_file(const char *pFilename, int width, int height, int num_channels, 
+                                   const uint8 *pImage_data, const params &amp;comp_params = params());</PRE>
+<PRE class="prettyprint">  // Writes JPEG image to memory buffer. 
+  // On entry, buf_size is the size of the output buffer pointed at by pBuf, which should be at least ~1024 bytes. 
+  // If return value is true, buf_size will be set to the size of the compressed data.
+  bool compress_image_to_jpeg_file_in_memory(void *pBuf, int &amp;buf_size, int width, int height, int num_channels, 
+                                             const uint8 *pImage_data, const params &amp;comp_params = params());</PRE>
+      <P>See <A href="http://code.google.com/p/jpeg-compressor/source/browse/trunk/tga2jpg.cpp" 
+      rel="nofollow">tga2jpg.cpp</A> for an example usage. This example uses 
+      Sean Barrett's <A href="http://www.nothings.org/stb_image.c" rel="nofollow">stb_image.c</A> 
+      module to load image files. </P>
+      <P>You can also call the jpge::jpeg_encoder class directly if you need 
+      more control over the image source or how/where the output stream is 
+      written. </P>
+      <P><STRONG>Basic Usage (Decompression)</STRONG> </P>
+      <P>Include <A href="http://code.google.com/p/jpeg-compressor/source/browse/trunk/jpgd.h" 
+      rel="nofollow">jpgd.h</A> and call one of these helper functions in the 
+      "jpgd" namespace: </P>
+<PRE class="prettyprint">  // Loads a JPEG image from a memory buffer.
+  // req_comps can be 1 (grayscale), 3 (RGB), or 4 (RGBA).
+  // On return, width/height will be set to the image's dimensions, and actual_comps will be set 
+  // to either 1 (grayscale) or 3 (RGB).
+  unsigned char *decompress_jpeg_image_from_memory(const unsigned char *pSrc_data, int src_data_size, 
+                                       int *width, int *height, int *actual_comps, int req_comps);</PRE>
+<PRE class="prettyprint">  // Loads a JPEG image from a file.
+  unsigned char *decompress_jpeg_image_from_file(const char *pSrc_filename, int *width, int *height, 
+                                       int *actual_comps, int req_comps);</PRE>
+      <P>Just like the compressor, for more control you can directly utilize the 
+      jpgd::jpeg_decompressor class, or call the 
+      decompress_jpeg_image_from_stream() function. </P>
+      <P>jpgd supports a superset of JPEG features utilized by jpge, so it can 
+      decompress any file generated by jpge along with most (if not almost all) 
+      JPEG files you're likely to encounter in the wild. It supports progressive 
+      and baseline sequential JPEG image files and the H1V1, H2V1, H1V2, and 
+      H2V2 chroma subsampling factors. </P>
+      <P><STRONG>Testing</STRONG> 
+      <UL>
+        <LI>The source distribution includes a simple example command line tool 
+        called "jpge.exe" (or jpge_x64.exe for Win64 systems) that converts 
+        images from any format that <A href="http://www.nothings.org/stb_image.c" 
+        rel="nofollow">stb_image.c</A> supports (such as PNG, TGA, BMP, etc.) to 
+        baseline JPEG using the jpeg_encoder class. Its usage is: </LI></UL>
+      <P></P>
+<PRE class="prettyprint">  bin/jpge source_file.png destination_file.jpg quality_factor</PRE>
+      <P>Where quality_factor ranges from 1-100 (higher is better). </P>
+      <P>jpge.exe also includes a few other modes for exhaustive testing of the 
+      codec (-x option) and JPEG to TGA decompression (-d option) -- see the 
+      help text for more info. </P>
+      <P><STRONG>Revisions</STRONG> 
+      <UL>
+        <LI>v1.04, May 20, 2012 - Fixed double fclose() bug in 
+        cfile_stream::close() reported by Owen Kaluza. (m_pFile should have been 
+        set to NULL here. Crap.) Also put jpge.cpp and jpgd.cpp through MSVC 
+        2008's static code analysis and fixed every warning. They where all 
+        harmless things, but it's the <A href="http://www.altdevblogaday.com/2011/12/24/static-code-analysis/" 
+        rel="nofollow">right thing to do</A>. </LI>
+        <LI>v1.03, Apr. 16, 2011 - Added jpgd.cpp/.h (derived from my older <A 
+        href="http://code.google.com/p/jpgd/" 
+        rel="nofollow">http://code.google.com/p/jpgd/</A> project), integrated 
+        changes from Alex Evans, added support for two pass compression, added 
+        more modes/options and timer to example command line app, lots of 
+        testing. </LI>
+        <LI>v1.02, Apr. 6, 2011 - Removed 2x2 ordered dither in the H2V1 chroma 
+        subsampling method jpeg_encoder::load_block_16_8_8(). (This was a last 
+        minute addition and there was actually a typo here - the dither rounding 
+        factor was 2 when it should have been 1. It turns out that chroma 
+        subsample dithering in the H2V1 case typically lowers PSNR even with the 
+        intended rounding factor, unlike H2V2.) </LI>
+        <LI>v1.01, Dec. 18, 2010 - Initial stable release </LI></UL>
+      <P></P>
+      <P><STRONG>History</STRONG> </P>
+      <P>This codec was originally written in C and 16-bit x86 asm way back in 
+      1994 for a DOS image viewer. The primary reference was Pennebaker's and 
+      Mitchell's book <A href="http://www.amazon.com/JPEG-Compression-Standard-Multimedia-Standards/dp/0442012721/ref=sr_1_1?ie=UTF8&amp;qid=1292739978&amp;sr=8-1" 
+      rel="nofollow">JPEG: Still Image Data Compression Standard</A>. The 
+      original version supported a simple form of adaptive quantization, used a 
+      quantized DCT, and two pass Huffman coding. Around 2000 I ported it to 
+      C++, but I didn't really have the time to release it until now. </P>
+      <P>Note if you're generating texture mipmaps from loaded images, you may 
+      be interested in my <A href="http://code.google.com/p/imageresampler/" 
+      rel="nofollow">imageresampler</A> project. </P>
+      <P>For any questions or problems with this code please contact Rich 
+      Geldreich at &lt;richgel99 at gmail.com&gt;. Here's my <A href="http://twitter.com/#!/richgel999" 
+      rel="nofollow">twitter page</A>. </P></TD></TR></TBODY></TABLE>
+<SCRIPT src="jpeg-compressor%20-%20JPEG%20image%20compressor%20and%20decompressor%20classes%20in%20two%20C++%20source%20files_%20-%20Google%20Project%20Hosting_files/prettify_core_compiled.js"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+ prettyPrint();
+</SCRIPT>
+     
+<SCRIPT src="jpeg-compressor%20-%20JPEG%20image%20compressor%20and%20decompressor%20classes%20in%20two%20C++%20source%20files_%20-%20Google%20Project%20Hosting_files/ph_core.js" type="text/javascript"></SCRIPT>
+     </DIV>
+<DIV id="footer" dir="ltr">
+<DIV class="text"><A 
+href="https://code.google.com/projecthosting/terms.html">Terms</A> -  <A href="http://www.google.com/privacy.html">Privacy</A> 
+-  <A href="https://code.google.com/p/support/">Project Hosting Help</A>  
+</DIV></DIV>
+<DIV class="hostedBy" style="margin-top: -20px;"><SPAN style="vertical-align: top;">Powered 
+by <A href="http://code.google.com/projecthosting/">Google Project 
+Hosting</A></SPAN>  </DIV></BODY></HTML>

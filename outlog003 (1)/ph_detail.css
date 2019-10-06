@@ -1,0 +1,444 @@
+.pmeta_bubble_bg {
+	background: rgb(229, 236, 249); margin-bottom: 0.6em;
+}
+.pmeta {
+	text-align: left;
+}
+.pmeta th {
+	vertical-align: top;
+}
+.pmeta td {
+	vertical-align: top;
+}
+.pmeta ul {
+	margin: 0px; padding: 0px;
+}
+.pmeta li {
+	padding: 0px 0px 2px; list-style-type: none;
+}
+#wikipage {
+	background: rgb(248, 248, 248); padding-bottom: 10px;
+}
+#wikipage #wikimaincol {
+	border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+#wikimaincol {
+	padding: 5px 25px 10px 10px; min-width: 64em; background-color: rgb(255, 255, 255);
+}
+#wikiheader {
+	padding-top: 10px; margin-bottom: 12px;
+}
+#wikicontent h1 {
+	background: none; border: 0px currentColor; border-image: none; padding-left: 0px; max-width: 700px;
+}
+#wikicontent h2 {
+	background: none; border: 0px currentColor; border-image: none; padding-left: 0px; max-width: 700px;
+}
+#wikicontent h3 {
+	background: none; border: 0px currentColor; border-image: none; padding-left: 0px; max-width: 700px;
+}
+#wikipreview h1 {
+	background: none; border: 0px currentColor; border-image: none; padding-left: 0px; max-width: 700px;
+}
+#wikipreview h2 {
+	background: none; border: 0px currentColor; border-image: none; padding-left: 0px; max-width: 700px;
+}
+#wikipreview h3 {
+	background: none; border: 0px currentColor; border-image: none; padding-left: 0px; max-width: 700px;
+}
+#wikicontent h3 {
+	margin: 0px;
+}
+#wikipreview h3 {
+	margin: 0px;
+}
+#wikicontent ul {
+	padding-left: 25px; max-width: 62em;
+}
+#wikipreview ul {
+	padding-left: 25px; max-width: 62em;
+}
+#wikicontent ol {
+	padding-left: 25px; max-width: 62em;
+}
+#wikipreview ol {
+	padding-left: 25px; max-width: 62em;
+}
+#wikicontent li {
+	margin-bottom: 0.3em;
+}
+#wikipreview li {
+	margin-bottom: 0.3em;
+}
+#wikicontent p {
+	line-height: 1.25em; max-width: 64em;
+}
+#wikipreview p {
+	line-height: 1.25em; max-width: 64em;
+}
+#wikicontent hr {
+	width: 100%; color: rgb(204, 204, 204); background-color: rgb(204, 204, 204);
+}
+#wikipreview hr {
+	width: 100%; color: rgb(204, 204, 204); background-color: rgb(204, 204, 204);
+}
+#wikicontent img {
+	max-width: 100%;
+}
+#wikipreview img {
+	max-width: 100%;
+}
+#wikiauthor {
+	text-align: right; clear: both; font-size: x-small;
+}
+.wikitable {
+	border: 1px solid rgb(204, 204, 204); border-image: none; border-spacing: 0;
+}
+.gadget-title {
+	margin-bottom: 2px;
+}
+a.section_anchor::before {
+	content: "\00B6";
+}
+a.section_anchor {
+	font-size: 85%; font-weight: lighter; text-decoration: none; margin-left: 0.7em; display: none;
+}
+h1:hover a.section_anchor {
+	color: rgb(187, 187, 187); display: inline;
+}
+h2:hover a.section_anchor {
+	color: rgb(187, 187, 187); display: inline;
+}
+h3:hover a.section_anchor {
+	color: rgb(187, 187, 187); display: inline;
+}
+h4:hover a.section_anchor {
+	color: rgb(187, 187, 187); display: inline;
+}
+h5:hover a.section_anchor {
+	color: rgb(187, 187, 187); display: inline;
+}
+h6:hover a.section_anchor {
+	color: rgb(187, 187, 187); display: inline;
+}
+h1 a.section_anchor:hover {
+	color: rgb(51, 51, 204);
+}
+h2 a.section_anchor:hover {
+	color: rgb(51, 51, 204);
+}
+h3 a.section_anchor:hover {
+	color: rgb(51, 51, 204);
+}
+h4 a.section_anchor:hover {
+	color: rgb(51, 51, 204);
+}
+h5 a.section_anchor:hover {
+	color: rgb(51, 51, 204);
+}
+h6 a.section_anchor:hover {
+	color: rgb(51, 51, 204);
+}
+#wikicontent code {
+	font-family: Monaco, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Lucida Console", monospace; font-size: 93%; max-width: 66em;
+}
+tt {
+	font-family: Monaco, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Lucida Console", monospace; font-size: 93%; max-width: 66em;
+}
+#wikicontent pre {
+	font-family: Monaco, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Lucida Console", monospace; font-size: 93%; max-width: 66em;
+}
+#wikipreview code {
+	font-family: Monaco, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Lucida Console", monospace; font-size: 93%; max-width: 66em;
+}
+tt {
+	font-family: Monaco, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Lucida Console", monospace; font-size: 93%; max-width: 66em;
+}
+#wikipreview pre {
+	font-family: Monaco, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Lucida Console", monospace; font-size: 93%; max-width: 66em;
+}
+pre.prettyprint {
+	padding: 0.5em; overflow: auto; font-family: Monaco, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Lucida Console", monospace; font-size: 93%;
+}
+#wikicontent pre.prettyprint {
+	max-width: 70em; background-color: rgb(238, 238, 238);
+}
+#wikipreview pre.prettyprint {
+	max-width: 70em; background-color: rgb(238, 238, 238);
+}
+#wikicontent blockquote {
+	max-width: 60em;
+}
+#wikipreview blockquote {
+	max-width: 60em;
+}
+blockquote {
+	margin: 20px;
+}
+.issuedescription pre {
+	white-space: pre-wrap;
+}
+.issuecomment pre {
+	white-space: pre-wrap;
+}
+.prettyprint .str {
+	color: rgb(0, 136, 0);
+}
+.prettyprint .kwd {
+	color: rgb(0, 0, 136);
+}
+.prettyprint .com {
+	color: rgb(136, 0, 0);
+}
+.prettyprint .typ {
+	color: rgb(102, 0, 102);
+}
+.prettyprint .lit {
+	color: rgb(0, 102, 102);
+}
+.prettyprint .pun {
+	color: rgb(102, 102, 0);
+}
+.prettyprint .pln {
+	color: rgb(0, 0, 0);
+}
+.prettyprint .tag {
+	color: rgb(0, 0, 136);
+}
+.prettyprint .atn {
+	color: rgb(102, 0, 102);
+}
+.prettyprint .atv {
+	color: rgb(0, 136, 0);
+}
+.prettyprint .dec {
+	color: rgb(102, 0, 102);
+}
+@media print
+{
+.prettyprint .str {
+	color: rgb(0, 102, 0);
+}
+.prettyprint .kwd {
+	color: rgb(0, 0, 102); font-weight: bold;
+}
+.prettyprint .com {
+	color: rgb(102, 0, 0); font-style: italic;
+}
+.prettyprint .typ {
+	color: rgb(68, 0, 68); font-weight: bold;
+}
+.prettyprint .lit {
+	color: rgb(0, 68, 68);
+}
+.prettyprint .pun {
+	color: rgb(68, 68, 0);
+}
+.prettyprint .pln {
+	color: rgb(0, 0, 0);
+}
+.prettyprint .tag {
+	color: rgb(0, 0, 102); font-weight: bold;
+}
+.prettyprint .atn {
+	color: rgb(68, 0, 68);
+}
+.prettyprint .atv {
+	color: rgb(0, 102, 0);
+}
+}
+.closed_ref {
+	text-decoration: line-through;
+}
+.notes {
+	background: rgb(255, 255, 204); border-width: 0px 1px 1px 0px; border-style: solid; border-color: rgb(153, 153, 153); padding: 2px; border-image: none; width: 818px;
+}
+.rowmajor {
+	width: 700px;
+}
+.rowmajor th {
+	text-align: right;
+}
+.labelediting input {
+	margin: 0px 3px 4px 0px;
+}
+.labelediting input {
+	color: rgb(0, 102, 0);
+}
+.collapse .ifExpand {
+	display: none;
+}
+.expand .ifCollapse {
+	display: none;
+}
+.inplace input {
+	width: 100%;
+}
+.inplace td {
+	border: 0px currentColor; border-image: none;
+}
+#issueheader {
+	background: rgb(229, 236, 249); margin: 0.5em 0px 0em; border: 3px solid rgb(229, 236, 249); border-image: none;
+}
+#issueheader td {
+	background: rgb(229, 236, 249);
+}
+.closed_colors #issueheader {
+	background: rgb(221, 221, 221); border-color: rgb(221, 221, 221);
+}
+.closed_colors #issueheader td {
+	background: rgb(221, 221, 221);
+}
+.issuepage {
+	margin-top: 0px;
+}
+.issuepage td {
+	padding: 0.5em 0.5em 0.5em 0px;
+}
+.issuecomment {
+	padding-top: 0.5em; border-top-color: rgb(229, 236, 249); border-top-width: 3px; border-top-style: solid;
+}
+.closed_colors .issuecomment {
+	border-color: rgb(221, 221, 221);
+}
+.role_label {
+	padding: 2px 4px; border-radius: 3px; color: white; line-height: 14px; font-size: 75%; font-weight: bold; display: inline-block; background-color: rgb(136, 170, 238);
+}
+.issuedescription pre {
+	padding-left: 0.7em; max-width: 80em;
+}
+.issuecomment pre {
+	padding-left: 0.7em; max-width: 80em;
+}
+.issuedescription pre b {
+	padding: 3px 0px; font-size: 110%; font-weight: bolder;
+}
+.issuecomment pre b {
+	padding: 3px 0px; font-size: 110%; font-weight: bolder;
+}
+.author {
+	padding-left: 0.7em;
+}
+#issuemeta {
+	width: 12em; font-size: 95%; vertical-align: top; border-right-color: rgb(229, 236, 249); border-right-width: 3px; border-right-style: solid;
+}
+.closed_colors #issuemeta {
+	border-color: rgb(221, 221, 221);
+}
+#issuemeta table tr.hover a {
+	text-decoration: underline;
+}
+#issuemeta table td {
+	margin: 0px; padding: 5px 0px 0px;
+}
+#issuemeta table th {
+	margin: 0px; padding: 5px 0px 0px;
+}
+.rel_issues a {
+	white-space: nowrap;
+}
+.issue_restrictions {
+	padding: 2px 4px; border: 1px solid rgb(204, 204, 204); border-image: none; min-width: 14em; background-color: rgb(249, 237, 190);
+}
+.issue_restrictions .restrictions_header {
+	padding: 0px 0px 2px; text-align: center; font-weight: bold;
+}
+.issue_restrictions ul {
+	margin: 0px; padding: 0px 2px; list-style-position: inside;
+}
+.issue_restrictions .other_restriction {
+	white-space: nowrap;
+}
+.oldvalue {
+	color: rgb(102, 102, 102); font-style: italic; left-margin: 1em;
+}
+.updates {
+	background: rgb(229, 236, 249); margin: 1em 0px 0.5em 0.7em; width: 80%; font-size: 90%;
+}
+.closed_colors .updates {
+	background: rgb(200, 200, 200);
+}
+.fakelink {
+	color: rgb(0, 0, 204); text-decoration: underline; white-space: nowrap; cursor: pointer;
+}
+.undef {
+	color: rgb(102, 102, 102);
+}
+table.advquery {
+	border: 3px solid rgb(229, 236, 249); border-image: none;
+}
+table.issueimport {
+	border: 3px solid rgb(229, 236, 249); border-image: none;
+}
+table.advquery td {
+	padding: 2px; white-space: nowrap;
+}
+table.issueimport td {
+	padding: 2px; white-space: nowrap;
+}
+.focus td {
+	background: rgb(229, 236, 249);
+}
+.eg {
+	color: rgb(102, 102, 102); font-size: 90%;
+}
+#submit {
+	font-weight: bold;
+}
+div td .novel {
+	color: rgb(68, 51, 0);
+}
+div td .blockingsubmit {
+	color: rgb(170, 0, 51);
+}
+div td .exclconflict {
+	color: rgb(170, 0, 51);
+}
+div td .questionmark {
+	color: rgb(170, 0, 51);
+}
+.delcom {
+	background: rgb(232, 232, 232);
+}
+.numberentry {
+	text-align: right;
+}
+.pscolumnl {
+	border-right-color: rgb(233, 233, 233); border-right-width: 2px; border-right-style: solid; min-width: 15em;
+}
+.pscontent {
+	width: 100%; vertical-align: top;
+}
+.psicon {
+	padding-top: 5px; padding-left: 5px;
+}
+.psdescription {
+	padding: 0px 10px !important; width: 100%;
+}
+.pslist {
+	margin: 0px; padding-left: 34px; list-style-type: none;
+}
+.phead {
+	margin: 5px 5px 4px; padding: 3px 6px; height: 15px; font-weight: bold; white-space: nowrap; background-color: rgb(229, 237, 249);
+}
+.pfeatured {
+	background-color: rgb(221, 248, 204);
+}
+.psmeta {
+	margin: 0px 5px 0px 0px; padding: 0px;
+}
+.psline {
+	margin: 5px 5px 10px 10px; border: 0px currentColor; border-image: none; height: 1px; background-color: rgb(233, 233, 233);
+}
+.psgap {
+	height: 1em;
+}
+.nowrap {
+	white-space: nowrap;
+}
+#derived_labels_target .label {
+	font-weight: bold;
+}
+#derived_labels_target .label:hover {
+	text-decoration: none;
+}

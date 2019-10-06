@@ -1,0 +1,54 @@
+# Project: CZJPGDE
+# Makefile created by Dev-C++ 5.8.3
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+RES      = czjpgcde_private.res
+OBJ      = main.o jpgd.o jpge.o cxdisclaimer.o czjpg_if.o exif.o cxbars.o logprn.o $(RES)
+LINKOBJ  = main.o jpgd.o jpge.o cxdisclaimer.o czjpg_if.o exif.o cxbars.o logprn.o $(RES)
+LIBS     = -L"C:/KIT.PORT/Orwell Dev-C++ 5.8.3 MinGW 64/OrwellDev-CppPortable/App/Dev-Cpp/MinGW64/lib32" -L"C:/KIT.PORT/Orwell Dev-C++ 5.8.3 MinGW 64/OrwellDev-CppPortable/App/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -mwindows -m32
+INCS     = -I"C:/KIT.PORT/Orwell Dev-C++ 5.8.3 MinGW 64/OrwellDev-CppPortable/App/Dev-Cpp/MinGW64/include" -I"C:/KIT.PORT/Orwell Dev-C++ 5.8.3 MinGW 64/OrwellDev-CppPortable/App/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/KIT.PORT/Orwell Dev-C++ 5.8.3 MinGW 64/OrwellDev-CppPortable/App/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include"
+CXXINCS  = -I"C:/KIT.PORT/Orwell Dev-C++ 5.8.3 MinGW 64/OrwellDev-CppPortable/App/Dev-Cpp/MinGW64/include" -I"C:/KIT.PORT/Orwell Dev-C++ 5.8.3 MinGW 64/OrwellDev-CppPortable/App/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/KIT.PORT/Orwell Dev-C++ 5.8.3 MinGW 64/OrwellDev-CppPortable/App/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -I"C:/KIT.PORT/Orwell Dev-C++ 5.8.3 MinGW 64/OrwellDev-CppPortable/App/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"
+BIN      = czjpgcde.exe
+CXXFLAGS = $(CXXINCS) -m32
+CFLAGS   = $(INCS) -m32
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+jpgd.o: jpgd.cpp
+	$(CPP) -c jpgd.cpp -o jpgd.o $(CXXFLAGS)
+
+jpge.o: jpge.cpp
+	$(CPP) -c jpge.cpp -o jpge.o $(CXXFLAGS)
+
+cxdisclaimer.o: cxdisclaimer.cpp
+	$(CPP) -c cxdisclaimer.cpp -o cxdisclaimer.o $(CXXFLAGS)
+
+czjpg_if.o: czjpg_if.cpp
+	$(CPP) -c czjpg_if.cpp -o czjpg_if.o $(CXXFLAGS)
+
+exif.o: exif.cpp
+	$(CPP) -c exif.cpp -o exif.o $(CXXFLAGS)
+
+cxbars.o: cxbars.cpp
+	$(CPP) -c cxbars.cpp -o cxbars.o $(CXXFLAGS)
+
+logprn.o: logprn.cpp
+	$(CPP) -c logprn.cpp -o logprn.o $(CXXFLAGS)
+
+czjpgcde_private.res: czjpgcde_private.rc resource.rc
+	$(WINDRES) -i czjpgcde_private.rc -F pe-i386 --input-format=rc -o czjpgcde_private.res -O coff 
+

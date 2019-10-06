@@ -1,0 +1,1 @@
+http://social.msdn.microsoft.com/forums/vstudio/en-US/07291527-344f-4e24-b06f-c9dbeda6b2fe/cant-use-global-hbitmap-variables-when-using-memory-dcs

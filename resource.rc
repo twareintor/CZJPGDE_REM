@@ -1,0 +1,83 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///// Progetto Originle: CZJPGDE (czjpgde.dev) Windows 32/64 Projetto suo Orwell Dev CPP Portable ()
+///// nome del file: "resource.rc"
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+#include "resource.h"
+
+
+IDI_MYICON			ICON	"czjpg128x128.ico"
+IDI_MYICONSM		ICON	"czjpg16x16.ico"
+
+
+
+
+IDR_MYMENU MENU
+BEGIN
+	POPUP "&File"
+	BEGIN
+		MENUITEM	"&Open...		<Ctrl+O>", 	ID_FILE_OPEN
+		MENUITEM	"&Save			<Ctrl+S>", 	ID_FILE_SAVE, 			GRAYED
+		MENUITEM	"Save &As...		    ", 	ID_FILE_SAVEAS
+		MENUITEM	"Save &Info		<Ctrl+E>",	ID_FILE_SAVEINFO, 		GRAYED
+		MENUITEM	"Save InfoAs...		    ",	ID_FILE_SAVEINFOAS, 	GRAYED
+		MENUITEM	"Print...		<Ctrl+P>",	ID_FILE_PRINT, 			GRAYED
+		MENUITEM	"Print Info...		    ",	ID_FILE_PRINTINFO,		GRAYED
+		MENUITEM	"&Close...              ",	ID_FILE_CLOSE
+		MENUITEM	"E&xit...		<Alt+F4>", 	ID_FILE_EXIT
+	END
+	POPUP "&Edit"
+	BEGIN
+		MENUITEM	"&Undo			<Ctrl+Z>",	ID_EDIT_UNDO,			GRAYED
+		MENUITEM	"&Redo			<Ctrl+R>",	ID_EDIT_REDO,			GRAYED
+		MENUITEM	"Cu&t			<Ctrl+X>",	ID_EDIT_CUT
+		MENUITEM	"&Copy			<Ctrl+C>",	ID_EDIT_COPY
+		MENUITEM	"&Paste			<Ctrl+V>",	ID_EDIT_PASTE
+		MENUITEM	"&Insert...		<Ctrl+I>",	ID_EDIT_INSERT
+	END
+	POPUP "&Render"
+	BEGIN
+		MENUITEM	"&Files...		<Ctrl+T>",	ID_TRANSFORM_FILES
+		MENUITEM	"&Settings...	        ",	ID_TRANSFORM_SETTINGS
+	END
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+

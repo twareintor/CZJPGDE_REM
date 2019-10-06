@@ -1,0 +1,708 @@
+body {
+	background: rgb(255, 255, 255); font: 82%/normal arial, sans-serif; margin: 3px 0px; min-width: 768px; font-size-adjust: none; font-stretch: normal;
+}
+.headbg {
+	margin: 0px 8px;
+}
+a:link {
+	color: rgb(0, 0, 204);
+}
+a:focus {
+	color: rgb(0, 0, 204);
+}
+a:active {
+	color: red;
+}
+select {
+	font-family: arial,sans-serif;
+}
+input {
+	font-family: arial,sans-serif;
+}
+input[type='text'] {
+	border-width: 1px; border-style: solid; border-color: rgb(153, 153, 153) rgb(204, 204, 204) rgb(204, 204, 204); padding: 2px 1px;
+}
+input[type=button] {
+	background: url("//ssl.gstatic.com/codesite/ph/images/button-bg.gif") repeat-x left top rgb(227, 227, 227); border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(170, 170, 170) rgb(136, 136, 136); padding: 1px 3px; border-radius: 3px; border-image: none; font-size: 100%; text-decoration: none; vertical-align: baseline; cursor: pointer;
+}
+input[type=submit] {
+	background: url("//ssl.gstatic.com/codesite/ph/images/button-bg.gif") repeat-x left top rgb(227, 227, 227); border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(170, 170, 170) rgb(136, 136, 136); padding: 1px 3px; border-radius: 3px; border-image: none; font-size: 100%; text-decoration: none; vertical-align: baseline; cursor: pointer;
+}
+.buttonify {
+	background: url("//ssl.gstatic.com/codesite/ph/images/button-bg.gif") repeat-x left top rgb(227, 227, 227); border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(170, 170, 170) rgb(136, 136, 136); padding: 1px 3px; border-radius: 3px; border-image: none; font-size: 100%; text-decoration: none; vertical-align: baseline; cursor: pointer;
+}
+.buttonify {
+	color: rgb(0, 0, 0) !important;
+}
+input[type=button]:hover {
+	border-color: rgb(102, 102, 102); text-decoration: none !important;
+}
+input[type=submit]:hover {
+	border-color: rgb(102, 102, 102); text-decoration: none !important;
+}
+.buttonify:hover {
+	border-color: rgb(102, 102, 102); text-decoration: none !important;
+}
+.capsule_left {
+	border-right-color: currentColor; border-right-width: 0px; border-right-style: none; border-top-right-radius: 0px; border-bottom-right-radius: 0px;
+}
+.capsule_right {
+	border-top-left-radius: 0px; border-bottom-left-radius: 0px;
+}
+.capsule_middle {
+	border-radius: 0px; border-right-color: currentColor; border-right-width: 0px; border-right-style: none;
+}
+.mode_button_active {
+	background: url("//ssl.gstatic.com/codesite/ph/images/button-bg.gif") repeat-x left bottom rgb(187, 187, 187); border-color: rgb(170, 170, 170);
+}
+.buttonify:active {
+	background: url("//ssl.gstatic.com/codesite/ph/images/button-bg.gif") repeat-x left bottom rgb(187, 187, 187); border-color: rgb(170, 170, 170);
+}
+input[type=button]:active {
+	background: url("//ssl.gstatic.com/codesite/ph/images/button-bg.gif") repeat-x left bottom rgb(187, 187, 187); border-color: rgb(170, 170, 170);
+}
+input[type=submit]:active {
+	background: url("//ssl.gstatic.com/codesite/ph/images/button-bg.gif") repeat-x left bottom rgb(187, 187, 187); border-color: rgb(170, 170, 170);
+}
+textarea {
+	border-width: 1px; border-style: solid; border-color: rgb(153, 153, 153) rgb(204, 204, 204) rgb(204, 204, 204);
+}
+td td {
+	font-size: 100%;
+}
+th th {
+	font-size: 100%;
+}
+th td {
+	font-size: 100%;
+}
+td th {
+	font-size: 100%;
+}
+pre {
+	font-size: 110%;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+.gtb {
+	background: rgb(235, 239, 249); padding: 5px 10px 0px 5px; border-bottom-color: rgb(107, 144, 218); border-bottom-width: 1px; border-bottom-style: solid; white-space: nowrap;
+}
+.gtb .tab {
+	margin: 5px 15px 6px 10px; color: rgb(0, 0, 204); float: left; cursor: pointer;
+}
+.gtb .active {
+	background: rgb(255, 255, 255); border-width: 1px 1px 0px; border-style: solid solid none; border-color: rgb(107, 144, 218) rgb(107, 144, 218) currentColor; margin: 0px 5px -1px 0px; padding: 5px 9px 6px; border-image: none; color: rgb(0, 0, 0); font-weight: bold; text-decoration: none; cursor: default;
+}
+.gtb .gtbc {
+	clear: left;
+}
+.subt {
+	background: rgb(255, 255, 255); padding: 0px 0px 0px 14px; height: 33px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+table {
+	border-collapse: separate;
+}
+.box-inner {
+	margin: 0px; padding: 0px 13px;
+}
+.round1 {
+	border-right-color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid;
+}
+.round2 {
+	border-right-color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-width: 2px; border-left-width: 2px; border-right-style: solid; border-left-style: solid;
+}
+.round4 {
+	border-right-color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-width: 4px; border-left-width: 4px; border-right-style: solid; border-left-style: solid;
+}
+.round1 {
+	margin: 0px; padding: 0px; height: 1px; font-size: 0px;
+}
+.round2 {
+	margin: 0px; padding: 0px; height: 1px; font-size: 0px;
+}
+.round4 {
+	margin: 0px; padding: 0px; height: 1px; font-size: 0px;
+}
+.bevel-left {
+	padding: 0px;
+}
+.bevel-right {
+	padding: 0px;
+}
+.bevel-right .round4 {
+	border-left-color: currentColor; border-left-width: medium; border-left-style: none;
+}
+.bevel-right .round2 {
+	border-left-color: currentColor; border-left-width: medium; border-left-style: none;
+}
+.bevel-right .round1 {
+	border-left-color: currentColor; border-left-width: medium; border-left-style: none;
+}
+.bevel-left .round4 {
+	border-right-color: currentColor; border-right-width: medium; border-right-style: none;
+}
+.bevel-left .round2 {
+	border-right-color: currentColor; border-right-width: medium; border-right-style: none;
+}
+.bevel-left .round1 {
+	border-right-color: currentColor; border-right-width: medium; border-right-style: none;
+}
+.bevel-left .box-inner {
+	padding: 0px;
+}
+.bevel-right .box-inner {
+	padding: 0px;
+}
+.bubble_bg {
+	background: rgb(195, 217, 255); margin-bottom: 0.6em;
+}
+.bubble {
+	padding: 4px;
+}
+#bub {
+	padding: 0px 1px;
+}
+.bub-top {
+	margin: 0px 2px 2px;
+}
+.bub-bottom {
+	margin: 2px 2px 0px;
+}
+.drop-down-bub {
+	font-size: 80%; margin-top: -1px;
+}
+.t5 h4 {
+	margin: 4px 4px 0px; padding: 2px; border-top-color: rgb(51, 102, 204); border-top-width: 1px; border-top-style: solid; background-color: rgb(229, 236, 249);
+}
+.t5 .section {
+	margin: 0px 4px 1.6em; padding: 4px;
+}
+.t5 .section .submit {
+	margin: 8px;
+}
+#maincol {
+	background: rgb(255, 255, 255); padding: 3px;
+}
+.isf a {
+	color: rgb(0, 0, 204); text-decoration: none;
+}
+.at a {
+	color: rgb(0, 0, 204); text-decoration: none;
+}
+.isf a:visited {
+	color: rgb(0, 0, 204); text-decoration: none;
+}
+.at a:visited {
+	color: rgb(0, 0, 204); text-decoration: none;
+}
+.isf a:hover {
+	color: rgb(0, 0, 204); text-decoration: underline;
+}
+.at a:hover {
+	color: rgb(0, 0, 204); text-decoration: underline;
+}
+.st1 .inst1 a {
+	height: 20px; color: rgb(0, 0, 0); font-weight: bold; text-decoration: none;
+}
+.st2 .inst2 a {
+	height: 20px; color: rgb(0, 0, 0); font-weight: bold; text-decoration: none;
+}
+.st3 .inst3 a {
+	height: 20px; color: rgb(0, 0, 0); font-weight: bold; text-decoration: none;
+}
+.st4 .inst4 a {
+	height: 20px; color: rgb(0, 0, 0); font-weight: bold; text-decoration: none;
+}
+.st5 .inst5 a {
+	height: 20px; color: rgb(0, 0, 0); font-weight: bold; text-decoration: none;
+}
+.st6 .inst6 a {
+	height: 20px; color: rgb(0, 0, 0); font-weight: bold; text-decoration: none;
+}
+.st7 .inst7 a {
+	height: 20px; color: rgb(0, 0, 0); font-weight: bold; text-decoration: none;
+}
+.st8 .inst8 a {
+	height: 20px; color: rgb(0, 0, 0); font-weight: bold; text-decoration: none;
+}
+.st9 .inst9 a {
+	height: 20px; color: rgb(0, 0, 0); font-weight: bold; text-decoration: none;
+}
+.notice {
+	background: rgb(255, 241, 168); font-weight: bold;
+}
+.error {
+	background: rgb(255, 241, 168); font-weight: bold;
+}
+.adminonly {
+	color: rgb(170, 0, 0); font-style: italic;
+}
+.fieldhelp {
+	color: grey;
+}
+.fielderror {
+	padding: 4px; color: rgb(170, 0, 0); font-weight: bold;
+}
+.tip {
+	background: rgb(229, 236, 249); margin: 5px; width: 14em; font-size: 92%;
+}
+.tip .box-inner {
+	padding: 6px;
+}
+.gbh {
+	top: 24px; width: 100%; height: 0px; font-size: 1px; border-top-color: rgb(201, 215, 241); border-top-width: 1px; border-top-style: solid; position: absolute;
+}
+#plogo {
+	width: 55px; text-align: center; vertical-align: bottom;
+}
+#pname {
+	margin: 0px; padding: 0px; font-size: 300%;
+}
+#pname a {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+#pname a:visited {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+#project_summary_link {
+	color: rgb(68, 68, 68); text-decoration: none;
+}
+.vt {
+	vertical-align: top;
+}
+.indicator {
+	color: rgb(0, 0, 204); font-size: x-small;
+}
+div.h4 {
+	padding: 2px; font-weight: bold; margin-top: 2px; margin-bottom: 2px; border-top-color: rgb(51, 102, 204); border-top-width: 1px; border-top-style: solid; position: relative; background-color: rgb(229, 236, 249);
+}
+table.h4 {
+	padding: 2px; font-weight: bold; margin-top: 2px; margin-bottom: 2px; border-top-color: rgb(51, 102, 204); border-top-width: 1px; border-top-style: solid; position: relative; background-color: rgb(229, 236, 249);
+}
+.mainhdr {
+	padding: 2px; font-size: 133%; font-weight: bold; border-bottom-color: rgb(107, 144, 218); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(235, 239, 249);
+}
+.secondaryhdr {
+	padding: 10px; border-right-color: rgb(221, 221, 221); border-bottom-color: rgb(221, 221, 221); border-left-color: rgb(221, 221, 221); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; background-color: rgb(238, 238, 238);
+}
+.messagebox {
+	padding: 10px; border: 1px solid rgb(221, 221, 221); border-image: none; background-color: rgb(238, 238, 238);
+}
+h1 {
+	font-size: x-large; margin-top: 0px;
+}
+h2 {
+	font-size: large;
+}
+h3 {
+	background: rgb(229, 236, 249); padding: 0.5ex 0.5em; font-size: medium; margin-right: 2em; border-top-color: rgb(51, 102, 204); border-top-width: 1px; border-top-style: solid;
+}
+h4 {
+	font-size: small;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+#gaia {
+	text-align: right; margin-bottom: 10px;
+}
+#gaia a {
+	color: rgb(0, 0, 204); text-decoration: none;
+}
+#header {
+	height: 55px; padding-top: 6px; margin-bottom: -9px; position: relative;
+}
+#logo {
+	left: 0px; top: 0px; padding-right: 18px; position: absolute;
+}
+#logo img {
+	width: 153px; height: 55px;
+}
+#title {
+	padding-top: 1px; padding-bottom: 1px; padding-left: 3px; font-size: large; font-weight: bold; margin-left: 171px; border-top-color: rgb(51, 102, 204); border-top-width: 1px; border-top-style: solid; background-color: rgb(229, 236, 249);
+}
+#footer {
+	background-position: left; height: 53px; text-align: center; clear: both; margin-top: 3.5em; margin-bottom: 1em; background-repeat: no-repeat;
+}
+#footer .text {
+	padding-top: 20px;
+}
+.label {
+	color: green !important; text-decoration: none;
+}
+.label:hover {
+	text-decoration: underline;
+}
+.results {
+	border-right-color: rgb(187, 187, 187); border-left-color: rgb(187, 187, 187); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid;
+}
+#colcontrol {
+	padding: 5px;
+}
+.cuetip {
+	background: rgb(229, 236, 249); border-bottom-color: white; border-bottom-width: 1px; border-bottom-style: solid;
+}
+.results th {
+	border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+.results th {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+.results th:last-child {
+	border-right-color: currentColor; border-right-width: 0px; border-right-style: none;
+}
+.results tr td {
+	border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.results tr:last-child {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.results th {
+	background: rgb(238, 238, 238); text-align: left; padding-right: 1px; border-top-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.results_lite th {
+	background: rgb(238, 238, 238); text-align: left; padding-right: 1px; border-top-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.results th a {
+	color: rgb(0, 0, 204); padding-right: 4px; margin-right: 4px;
+}
+.results th a:visited {
+	color: rgb(0, 0, 204); padding-right: 4px; margin-right: 4px;
+}
+.results td {
+	background: rgb(255, 255, 255);
+}
+.results td {
+	cursor: pointer;
+}
+.results td {
+	padding: 4px;
+}
+.results td a {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.results td.id a {
+	color: rgb(0, 0, 204); text-decoration: underline; white-space: nowrap;
+}
+.results td.id a:visited {
+	color: purple; text-decoration: underline;
+}
+.results td.id a:hover {
+	color: red; text-decoration: underline;
+}
+table.results tr.hover td {
+	color: rgb(0, 0, 153); background-color: rgb(244, 244, 255);
+}
+table.results tr.hover td a {
+	color: rgb(0, 0, 153);
+}
+.results .label {
+	font-size: 80%;
+}
+.results .selected td {
+	background: rgb(255, 255, 204);
+}
+.results td tt {
+	color: rgb(153, 153, 153); font-style: italic; font-weight: bold;
+}
+.results .displayproperties {
+	color: rgb(102, 102, 102); font-size: 80%;
+}
+.grid td {
+	border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid;
+}
+.grid td {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+.grid td:last-child {
+	border-right-color: currentColor; border-right-width: 0px; border-right-style: none;
+}
+.flipper {
+	font-family: monospace; font-size: 120%;
+}
+.flipper ul {
+	margin: 0em 0.3em; padding: 0px; list-style-type: none;
+}
+.flipper b {
+	margin: 0em 0.3em;
+}
+.closed .ifOpened {
+	display: none;
+}
+.closed .opened span.ifOpened {
+	display: inline;
+}
+.opened .ifClosed {
+	display: none;
+}
+.opened .closed span.ifClosed {
+	display: inline;
+}
+.h3 {
+	font-size: 130%; font-weight: bolder;
+}
+input {
+	padding-right: 1px; padding-left: 1px;
+}
+textarea {
+	padding-right: 1px; padding-left: 1px;
+}
+.pagination {
+	font-size: 100%; float: right; white-space: nowrap;
+}
+.pagination a {
+	margin-right: 0.3em; margin-left: 0.3em;
+}
+.author {
+	margin-bottom: 1em;
+}
+#searchtips {
+	padding-left: 2em;
+}
+#searchtips p {
+	margin-left: 2em;
+}
+.issueList .inIssueList span {
+	color: rgb(0, 0, 0); font-weight: bold; text-decoration: none;
+}
+.issueAdvSearch .inIssueAdvSearch a {
+	color: rgb(0, 0, 0); font-weight: bold; text-decoration: none;
+}
+.issueSubscriptions .inIssueSubscriptions a {
+	color: rgb(0, 0, 0); font-weight: bold; text-decoration: none;
+}
+.issueSearchTips .inIssueSearchTips a {
+	color: rgb(0, 0, 0); font-weight: bold; text-decoration: none;
+}
+iframe[frameborder='1'] {
+	border: 1px solid rgb(153, 153, 153); border-image: none;
+}
+.menuDiv {
+	background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(201, 215, 241) rgb(51, 102, 204) rgb(51, 102, 204) rgb(162, 186, 231); padding: 0px; width: 175px; overflow: hidden; margin-top: 5px; z-index: 1001;
+}
+.menuDiv .menuText {
+	background: rgb(255, 255, 255); padding: 3px; text-decoration: none;
+}
+.menuDiv .menuItem {
+	background: rgb(255, 255, 255); padding: 3px; color: rgb(0, 0, 204); text-decoration: none;
+}
+.menuDiv .menuItem:hover {
+	background: rgb(51, 102, 204); color: rgb(255, 255, 255);
+}
+.menuDiv .categoryTitle {
+	padding-left: 1px;
+}
+.menuDiv .menuCategory {
+	margin-top: 4px;
+}
+.menuDiv .categoryTitle {
+	margin-top: 4px;
+}
+.menuDiv .menuSeparator {
+	border-width: 1px 0px 0px; border-style: solid none none; border-color: rgb(201, 215, 241) currentColor currentColor; margin: 0px 0.5em; border-image: none;
+}
+.hostedBy {
+	text-align: center;
+}
+.fullscreen-popup {
+	background: rgb(0, 0, 0); padding: 1em; border-radius: 10px; left: 4%; top: 5%; right: 4%; color: white; position: fixed; z-index: 10; -ms-overflow-x: hidden; -ms-overflow-y: hidden; max-height: 90%; opacity: 0.85; text-shadow: 1px 1px 7px #000; -moz-opacity: 0.85;
+}
+.fullscreen-popup a {
+	color: rgb(221, 221, 0);
+}
+div#keys_help th {
+	text-align: left; color: yellow;
+}
+div#keys_help td {
+	color: white; font-weight: normal;
+}
+td.shortcut {
+	text-align: right;
+}
+span.letter {
+	color: rgb(136, 221, 0); font-family: monospace; font-size: medium;
+}
+#ac-list {
+	background: rgb(255, 255, 255); padding: 2px; border: 1px solid rgb(187, 187, 187); border-image: none; color: rgb(0, 0, 204); z-index: 10; -ms-overflow-x: hidden; -ms-overflow-y: auto; max-height: 18em;
+}
+#ac-list {
+	font-size: 95%;
+}
+#ac-list tr {
+	margin: 1px; padding: 0px 10px; cursor: pointer;
+}
+#ac-list th {
+	text-align: left; color: rgb(51, 51, 51);
+}
+#ac-list .selected {
+	background: rgb(195, 217, 255);
+}
+#ac-list .selected td {
+	background: rgb(195, 217, 255);
+}
+#ac-list td {
+	padding-right: 22px; white-space: nowrap;
+}
+#ac-list th {
+	padding-right: 22px; white-space: nowrap;
+}
+.list {
+	padding: 5px; border-top-color: rgb(187, 187, 187); border-right-color: rgb(187, 187, 187); border-left-color: rgb(187, 187, 187); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid; background-color: rgb(235, 239, 249);
+}
+.list-foot {
+	padding: 5px; height: 20px; border-right-color: rgb(187, 187, 187); border-bottom-color: rgb(187, 187, 187); border-left-color: rgb(187, 187, 187); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; background-color: rgb(235, 239, 249);
+}
+.graytext {
+	color: rgb(102, 102, 102);
+}
+.vspacer {
+	margin-top: 1em;
+}
+.hspacer {
+	margin-right: 1em;
+}
+.emphasis {
+	font-weight: bold;
+}
+.formrow {
+	overflow: hidden; padding-top: 0.2em; padding-bottom: 0.56em; vertical-align: top; white-space: nowrap;
+}
+.forminline {
+	vertical-align: top; display: inline-block;
+}
+.formlabelgutter {
+	width: 13em; text-align: right; margin-top: 0.3em; vertical-align: top; white-space: normal;
+}
+.formlabel {
+	text-align: right; font-weight: bold;
+}
+.forminputgutter {
+	width: 36em; text-align: left; margin-top: 0.3em; vertical-align: top; white-space: normal;
+}
+.forminputgutter input[type='checkbox'] {
+	float: left;
+}
+.forminput {
+	width: 100%;
+}
+.formshortinput {
+	width: 11em;
+}
+.formselectgutter {
+	width: 18em; text-align: left; margin-top: 0.3em; vertical-align: top; white-space: normal;
+}
+.formselect {
+	width: 18em;
+}
+.formqm {
+	margin-right: 0.25em; margin-left: 0.25em;
+}
+.formerror {
+	text-align: left; color: rgb(170, 0, 0); display: block;
+}
+.tablerow {
+	overflow: hidden; padding-top: 0.2em; padding-bottom: 0.56em; vertical-align: top; white-space: nowrap;
+}
+.tablelabelgutter {
+	width: 10em; text-align: left; margin-top: 0.3em; vertical-align: top; white-space: normal;
+}
+.tablelabel {
+	text-align: left; font-weight: bold;
+}
+.userlink {
+	white-space: nowrap;
+}
+.ph-visibility-icon {
+	margin: 10px; vertical-align: bottom;
+}
+dl.displaychoicelist dd {
+	margin-bottom: 1em;
+}
+dl.displaychoicelist input {
+	vertical-align: top;
+}
+html > body .goog-inline-block {
+	display: inline-block;
+}
+.goog-inline-block {
+	display: inline-block; position: relative;
+}
+* html .goog-inline-block {
+	display: inline;
+}
+*:first-child + html .goog-inline-block {
+	display: inline;
+}
+.downloads-deprecation-notice {
+	padding: 5px; text-align: center; margin-left: 9em; display: inline-block; background-color: rgb(255, 241, 168);
+}
+.SPRITE_close_icon {
+	background: url("sprite.png") no-repeat -79px -16px; width: 16px; height: 16px;
+}
+.SPRITE_comments {
+	background: url("sprite.png") no-repeat -95px 0px; width: 14px; height: 12px;
+}
+.SPRITE_dl_arrow {
+	background: url("sprite.png") no-repeat -119px 0px; width: 25px; height: 16px;
+}
+.SPRITE_downarrow {
+	background: url("sprite.png") no-repeat -30px 0px; width: 10px; height: 12px;
+}
+.SPRITE_filedownload-g16 {
+	background: url("sprite.png") no-repeat -14px -16px; width: 16px; height: 16px;
+}
+.SPRITE_lock_grey {
+	background: url("sprite.png") no-repeat -15px 0px; width: 15px; height: 16px;
+}
+.SPRITE_minus {
+	background: url("sprite.png") no-repeat -30px -12px; width: 9px; height: 9px;
+}
+.SPRITE_new-24 {
+	background: url("sprite.png") no-repeat -55px 0px; width: 24px; height: 24px;
+}
+.SPRITE_pagination-first {
+	background: url("sprite.png") no-repeat -111px -16px; width: 16px; height: 16px;
+}
+.SPRITE_pagination-last {
+	background: url("sprite.png") no-repeat -127px -16px; width: 16px; height: 16px;
+}
+.SPRITE_pagination-next {
+	background: url("sprite.png") no-repeat -144px 0px; width: 16px; height: 16px;
+}
+.SPRITE_pagination-prev {
+	background: url("sprite.png") no-repeat -164px -16px; width: 16px; height: 16px;
+}
+.SPRITE_paper_pencil-y16 {
+	background: url("sprite.png") no-repeat -164px 0px; width: 16px; height: 16px;
+}
+.SPRITE_paperclip {
+	background: url("sprite.png") no-repeat 0px 0px; width: 15px; height: 15px;
+}
+.SPRITE_pencil-y14 {
+	background: url("sprite.png") no-repeat 0px -16px; width: 14px; height: 14px;
+}
+.SPRITE_people-y16 {
+	background: url("sprite.png") no-repeat -79px 0px; width: 16px; height: 16px;
+}
+.SPRITE_plus {
+	background: url("sprite.png") no-repeat -30px -21px; width: 9px; height: 9px;
+}
+.SPRITE_question-16 {
+	background: url("sprite.png") no-repeat -95px -16px; width: 16px; height: 16px;
+}
+.SPRITE_show-arrow {
+	background: url("sprite.png") no-repeat -160px 0px; width: 4px; height: 12px;
+}
+.SPRITE_star_off {
+	background: url("sprite.png") no-repeat -40px -15px; width: 15px; height: 15px;
+}
+.SPRITE_star_on {
+	background: url("sprite.png") no-repeat -40px 0px; width: 15px; height: 15px;
+}
+.SPRITE_tearoff_icon {
+	background: url("sprite.png") no-repeat -144px -16px; width: 16px; height: 16px;
+}
+.SPRITE_triangle {
+	background: url("sprite.png") no-repeat -109px 0px; width: 10px; height: 12px;
+}
